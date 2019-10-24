@@ -1,11 +1,11 @@
 {
     "name": "nickt.metadataexport",
-    "title": "Meta Data Export StarUML Extension",
+    "title": "metadata-tool-export",
     "description": "Entension to export project into CSV files specific for Centric MetaData Tool",
     "homepage": "https://github.com/nickTinCentric/staruml-metadata-export.git",
     "issues": "https://github.com/nickTinCentric/staruml-metadata-export.git/issues",
     "keywords": ["centric,"],
-    "version": "1.0.0",
+    "version": "v1.0",
     "author": {
         "name": "Nick Tinsley",
         "email": "nick.tinsley@centricconsulting.com",
