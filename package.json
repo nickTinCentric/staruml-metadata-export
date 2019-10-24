@@ -5,7 +5,7 @@
     "homepage": "https://github.com/nickTinCentric/staruml-metadata-export.git",
     "issues": "https://github.com/nickTinCentric/staruml-metadata-export.git/issues",
     "keywords": ["centric,"],
-    "version": "v1.1",
+    "version": "v1.3",
     "author": {
         "name": "Nick Tinsley",
         "email": "nick.tinsley@centricconsulting.com",
@@ -13,6 +13,6 @@
     },
     "license": "Centric Consulting",
     "engines": {
-        "staruml": ">=3.0.0"
+        "staruml": ">=3.1.0"
     }
 }
