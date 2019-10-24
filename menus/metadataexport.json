@@ -1,0 +1,19 @@
+{
+  "menu": [
+    {
+      "id": "tools",
+      "submenu": [
+        {
+          "label": "Export for Meta Data Tool -- Entities",
+          "id": "tool.metadataexport",
+          "command": "metadatatoolentity:export-csv"
+        },
+        {
+          "label": "Export for Meta Data Tool -- Attributes",
+          "id": "tool.metadataexport",
+          "command": "metadatatoolattrib:export-csv"
+        }
+      ]
+    }
+  ]
+}

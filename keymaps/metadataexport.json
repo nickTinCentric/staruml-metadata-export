@@ -1,0 +1,4 @@
+{
+  "cmdctrl-w": "metadatatoolentity:export-csv",
+  "cmdctrl-b": "metadatatoolattrib:export-csv"
+}
