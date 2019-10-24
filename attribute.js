@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2019 Centric Consulting, LLC. All rights reserved.
+ * Nick Tinsley
+ */
+
+
 const fs = require('fs')
 
 class Attribute{
@@ -25,8 +31,13 @@ class Attribute{
 			for(j=0; j<arrayAtt[i].attributes.length; j++){
 				arrayAtt[i].attributes[j].name= arrayAtt[i].attributes[j].name.split(' ').join(this.deliminator)	
 				var colIndxNum = j+1
+				if(arrayAtt[i].attributes[j].isUnique){
+					arrayAtt[i].attributes[j].isUnique = 1
+				}else{
+					arrayAtt[i].attributes[j].isUnique = 0
+				}
 
-				var entryString = arrayAtt[i].name +','+ arrayAtt[i].attributes[j].type +','+ '' +','+ arrayAtt[i].attributes[j].name +','+ arrayAtt[i].attributes[j].documentation +','+ '' +','+ '' +','+ colIndxNum +', , , '
+				var entryString = arrayAtt[i].name +','+ arrayAtt[i].attributes[j].type +','+ arrayAtt[i].attributes[j].isUnique +','+ arrayAtt[i].attributes[j].name +','+ arrayAtt[i].attributes[j].documentation +','+ '' +','+ '' +','+ colIndxNum +', , , '
 				returnArray.push(entryString)
 			}
 		}
